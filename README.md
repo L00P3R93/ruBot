@@ -3,15 +3,17 @@ Python Twitter Bot with Tweepy module
 
 ## Access Keys & Tokens
 To use these create *credentials.py* and set the following variables as strings:
-
+```markdown
 CONSUMER_KEY = "" 
 CONSUMER_SECRET_KEY = ""
 ACCESS_TOKEN = ""
-ACCESS_SECRET_TOKEN = "" 
+ACCESS_SECRET_TOKEN = ""
+```
 
 Then import the *credentials.py* wherever you will use Twitter API
-#### from credentials import *
-
+```markdown
+from credentials import *
+```
 ## Text Files
 Optionally use the provided text files to create tweets or generate madlibs using links provided in *madlibs.py*
 
