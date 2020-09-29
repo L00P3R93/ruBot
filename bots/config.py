@@ -6,10 +6,10 @@ logger = logging.getLogger()
 
 
 def create_api():
-    consumer_key = "2zrDuTOJvE6ylmKeJ8nbehGcf"
-    consumer_secret = "Npwt2nYLJ7RZRgASSlahZzWCiAkIhFSIbTiLr1LQ2A92nnXGaf"
-    access_token = "636861738-K1UELUqQoNMvD70tq6odZMSbWAyXvSahZi47Tsg8"
-    access_token_secret = "Myw4y9FDWxCZBxqsxRntuiFJHteF3l0LG8JwrC0G3KMeq"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
